@@ -1,85 +1,69 @@
+<!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-      rel="stylesheet"
-    />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xilten</title>
-  </head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-gray-200 min-h-screen p-4">
+    <header class="text-center py-8">
+        <h1 class="text-5xl font-bold text-red-500 font-['Chakra_Petch']">XILTEN</h1>
+    </header>
 
-  <body>
-    <header>XILTEN</header>
+    <main class="max-w-6xl mx-auto space-y-8">
+        <section class="bg-gray-800 p-6 rounded-lg flex flex-col lg:flex-row gap-6 items-center">
+            <div class="lg:w-1/2">
+                <h2 class="text-4xl font-bold font-['Chakra_Petch']">ATRAVÉS DO ARANHAVERSO</h2>
+                <p class="text-xl text-gray-400">#homem-aranha</p>
+            </div>
+            <div class="lg:w-1/2 w-full aspect-video">
+                <iframe class="w-full h-full rounded-lg" src="https://www.youtube.com/embed/sY1S34973zQ" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
 
-    <section>
-      <div class="chamada-texto">
-        <h1>ATRAVÉS DO ARANHAVERSO</h1>
-        <p>#homem-aranha</p>
-      </div>
+        <section class="bg-gray-800 p-6 rounded-lg">
+            <h2 class="text-3xl font-bold font-['Chakra_Petch'] mb-6">Filmes e séries</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+                <a href="https://www.youtube.com/watch?v=0CsFnv_eYdE" target="_blank" class="block hover:scale-105 transition-transform">
+                    <img src="https://placehold.co/200x300/4a5568/ffffff?text=Filme+1" alt="Filme 1" class="w-full rounded-lg">
+                </a>
+                <a href="https://www.youtube.com/watch?v=zNl3HYuUEIU" target="_blank" class="block hover:scale-105 transition-transform">
+                    <img src="https://placehold.co/200x300/4a5568/ffffff?text=Filme+2" alt="Filme 2" class="w-full rounded-lg">
+                </a>
+                <a href="https://www.youtube.com/watch?v=BfvhJVyWR2s" target="_blank" class="block hover:scale-105 transition-transform">
+                    <img src="https://placehold.co/200x300/4a5568/ffffff?text=Filme+3" alt="Filme 3" class="w-full rounded-lg">
+                </a>
+                <a href="https://www.youtube.com/watch?v=example4" target="_blank" class="block hover:scale-105 transition-transform">
+                    <img src="https://placehold.co/200x300/4a5568/ffffff?text=Filme+4" alt="Filme 4" class="w-full rounded-lg">
+                </a>
+                <a href="https://www.youtube.com/watch?v=example5" target="_blank" class="block hover:scale-105 transition-transform">
+                    <img src="https://placehold.co/200x300/4a5568/ffffff?text=Filme+5" alt="Filme 5" class="w-full rounded-lg">
+                </a>
+            </div>
+        </section>
 
-      <div>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/gt_fAE1Eg2Q?si=EEv-tsY_b1B2OwKE"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </section>
-  </body>
+        <section class="bg-gray-800 p-6 rounded-lg">
+            <h2 class="text-3xl font-bold font-['Chakra_Petch'] mb-6">Mais Filmes e séries</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+                <a href="https://www.youtube.com/watch?v=example6" target="_blank" class="block hover:scale-105 transition-transform">
+                    <img src="https://placehold.co/200x300/4a5568/ffffff?text=Série+1" alt="Série 1" class="w-full rounded-lg">
+                </a>
+                <a href="https://www.youtube.com/watch?v=example7" target="_blank" class="block hover:scale-105 transition-transform">
+                    <img src="https://placehold.co/200x300/4a5568/ffffff?text=Série+2" alt="Série 2" class="w-full rounded-lg">
+                </a>
+                <a href="https://www.youtube.com/watch?v=example8" target="_blank" class="block hover:scale-105 transition-transform">
+                    <img src="https://placehold.co/200x300/4a5568/ffffff?text=Série+3" alt="Série 3" class="w-full rounded-lg">
+                </a>
+                <a href="https://www.youtube.com/watch?v=example9" target="_blank" class="block hover:scale-105 transition-transform">
+                    <img src="https://placehold.co/200x300/4a5568/ffffff?text=Série+4" alt="Série 4" class="w-full rounded-lg">
+                </a>
+                <a href="https://www.youtube.com/watch?v=example10" target="_blank" class="block hover:scale-105 transition-transform">
+                    <img src="https://placehold.co/200x300/4a5568/ffffff?text=Série+5" alt="Série 5" class="w-full rounded-lg">
+                </a>
+            </div>
+        </section>
+    </main>
+</body>
 </html>
-<!-- código omitido -->
-
-<section>
-  <h2>Filmes e séries</h2>
-  <div>
-    <a href="https://www.youtube.com/watch?v=cs15QqG6Gjc">
-      <img src="https://img.youtube.com/vi/cs15QqG6Gjc/maxresdefault.jpg" />
-    </a>
-    <a href="https://www.youtube.com/watch?v=nCmIwcycUJ8">
-      <img src="https://img.youtube.com/vi/nCmIwcycUJ8/maxresdefault.jpg" />
-    </a>
-    <a href="https://www.youtube.com/watch?v=FvRmEapoHRc">
-      <img src="https://img.youtube.com/vi/FvRmEapoHRc/maxresdefault.jpg" />
-    </a>
-    <a href="https://www.youtube.com/watch?v=Ipkw_hWW-Hw">
-      <img src="https://img.youtube.com/vi/Ipkw_hWW-Hw/maxresdefault.jpg" />
-    </a>
-    <a href="https://www.youtube.com/watch?v=d4DzMNGoyis">
-      <img src="https://img.youtube.com/vi/d4DzMNGoyis/maxresdefault.jpg" />
-    </a>
-  </div>
-</section>
-
-<!-- código omitido -->
-<!-- código omitido -->
-
-<section>
-  <h2>Filmes e séries</h2>
-  <div class="categoria-videos">
-    <!-- código omitido -->
-  </div>
-</section>
-<!-- código omitido -->
-
-<header>ALURAFLIX</header>
-
-<section class="chamada">
-  <div class="chamada-texto">
-    <!-- código omitido -->
-  </div>
-</section>
-<!-- código omitido -->
-
-<section class="categoria">
-  <h2>Filmes e séries</h2>
-  <div class="categoria-videos">
-    <!-- código omitido -->
-  </div>
-</section>
